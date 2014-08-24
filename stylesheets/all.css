@@ -1,24 +1,25 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: #fff;
   text-align: center;
   font-family: sans-serif; }
 
 h1 {
-  color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, .7);
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
-  text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
+  background: url("../images/extra-life.jpg") no-repeat center 0;
+  padding: 200px 0 10px;
   margin: 0; }
 
 .doc {
   font-size: 14px;
-  margin: 0; }
+  margin: 15px auto;
+  padding: 0 10px;
+  max-width: 500px; }
   .doc:before,
   .doc:after {
     opacity: .2;
@@ -27,7 +28,7 @@ h1 {
     position: relative;
     content: "•"; }
   .doc a {
-    color: rgba(0, 0, 0, 0.3); }
+    color: #00afef; }
     .doc a:hover {
       color: #666; }
 
