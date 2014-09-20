@@ -1,6 +1,6 @@
 # Charity
 
-My chariy page.
+My charity page.
 
 ## Setup
 
@@ -14,7 +14,7 @@ You should have the following minimally setup:
 ### Initial Project Setup
 
     $ git clone git@github.com:bergren2/charity.git
-    $ cd $_
+    $ cd charity
     $ rbenv install
     $ gem install bundler
     $ bundle install
