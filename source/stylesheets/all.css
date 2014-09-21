@@ -6,7 +6,7 @@ body {
   font-family: sans-serif; }
 
 h1 {
-  color: rgba(0, 0, 0, .7);
+  color: black;
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
@@ -15,22 +15,26 @@ h1 {
   padding: 200px 0 10px;
   margin: 0; }
 
+h3 {
+  margin: 0;
+  color: rgba(0, 0, 0, .7); }
+
 .doc {
-  font-size: 14px;
+  font-size: 16px;
+  text-align: left;
   margin: 15px auto;
-  padding: 0 10px;
   max-width: 500px; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
   .doc a {
     color: #23c1e8; }
     .doc a:hover {
       color: #666; }
+
+.video {
+  margin: 0 auto;
+  max-width: 560px; }
+
+hr {
+  max-width: 560px; }
 
 .welcome {
   -webkit-animation-name: welcome;
