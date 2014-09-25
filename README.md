@@ -23,13 +23,13 @@ You should have the following minimally setup:
 
 Fire up
 
-    $ bundle exec middleman server
+    $ bin/middleman server
 
 and you can see the site at [localhost:4567](http://localhost:4567).
 
 ## Deployment
 
-    $ bundle exec rake publish
+    $ bin/rake publish
 
 ## License
 
