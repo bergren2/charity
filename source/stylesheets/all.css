@@ -12,18 +12,24 @@ h1 {
   letter-spacing: -1px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
   background: url("../images/extra-life.jpg") no-repeat center 0;
-  padding: 200px 0 10px;
+  width: 385px;
+  float: right;
+  padding: 180px 0 10px;
   margin: 0; }
 
 h3 {
   margin: 0;
   color: rgba(0, 0, 0, .7); }
 
+#badge {
+  float: left;
+  margin-right: 10px; }
+
 .doc {
   font-size: 16px;
   text-align: left;
   margin: 15px auto;
-  max-width: 500px; }
+  width: 600px; }
   .doc a {
     color: #23c1e8; }
     .doc a:hover {
@@ -31,12 +37,15 @@ h3 {
 
 .video {
   margin: 0 auto;
-  max-width: 560px; }
+  width: 560px; }
 
 hr {
-  max-width: 560px; }
+  width: 560px; }
 
 .welcome {
+  width: 600px;
+  padding-top: 10px;
+  margin: 0 auto 10px;
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
 
